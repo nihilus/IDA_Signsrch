@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Doc">
+      <UniqueIdentifier>{e116890f-9ec9-46db-bbb3-0ea4f1a38b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom UI">
+      <UniqueIdentifier>{4d967542-c47b-4a92-8734-1cfab5add38b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{78d0751a-9e33-4525-9102-848c00ba1119}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlignNewDelete.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="EZHeapAlloc.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\IDA_Custom_UI\IDA_WaitEx\WaitBoxEx.h">
+      <Filter>Custom UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="IDA_Signsrch.txt">
+      <Filter>Doc</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="hal_search.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+</Project>

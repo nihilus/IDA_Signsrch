@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugin", "PlugIn.vcxproj", "{4329ABD4-118F-4C40-9A23-AA0AA670FF3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug64|Win32 = Debug64|Win32
+		Release|Win32 = Release|Win32
+		Release64|Win32 = Release64|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4329ABD4-118F-4C40-9A23-AA0AA670FF3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4329ABD4-118F-4C40-9A23-AA0AA670FF3D}.Debug|Win32.Build.0 = Debug|Win32
+		{4329ABD4-118F-4C40-9A23-AA0AA670FF3D}.Debug64|Win32.ActiveCfg = Debug64|Win32
+		{4329ABD4-118F-4C40-9A23-AA0AA670FF3D}.Debug64|Win32.Build.0 = Debug64|Win32
+		{4329ABD4-118F-4C40-9A23-AA0AA670FF3D}.Release|Win32.ActiveCfg = Release|Win32
+		{4329ABD4-118F-4C40-9A23-AA0AA670FF3D}.Release|Win32.Build.0 = Release|Win32
+		{4329ABD4-118F-4C40-9A23-AA0AA670FF3D}.Release64|Win32.ActiveCfg = Release64|Win32
+		{4329ABD4-118F-4C40-9A23-AA0AA670FF3D}.Release64|Win32.Build.0 = Release64|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
